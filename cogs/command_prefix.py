@@ -1,5 +1,7 @@
-from discord.ext import commands
 import json
+from cogs.embed import *
+from discord.ext import commands
+
 
 class command_prefix(commands.Cog):
 
@@ -23,6 +25,13 @@ class command_prefix(commands.Cog):
 
         with open("prefixes.json", "w") as f:
             json.dump(prefixes, f)
+
+        await Embed.embed(self, "Prefix", f":white_check_mark: Successfully set prefix to: **{prefix}**", ctx.channel)
+
+    @prefix.error
+    async def prefixError(self, ctx, error):
+        if isinstance(error, commands.MissingPermissions):
+            await Embed.embed(self, "Error", ":x: User does not have permission: **administrator**!", ctx.channel)
 
     @commands.Cog.listener()
     async def on_guild_join(self, guild):
