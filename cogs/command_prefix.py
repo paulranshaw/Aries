@@ -2,7 +2,6 @@ import json
 from cogs.embed import *
 from discord.ext import commands
 
-
 class command_prefix(commands.Cog):
 
     def __innit__(self, bot):
