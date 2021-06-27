@@ -212,7 +212,7 @@ class GIF(commands.Cog):
         await self.gifEmbed(CUDDLE_IMAGES, f'{user.mention}, you got cuddled by {ctx.author.mention}!', user, ctx.author, ctx.channel)
 
     @commands.command()
-    async def gif(self, ctx, *, query = None):
+    async def gif(self, ctx, *, query=None):
         if query == None:
             query = "random"
 
