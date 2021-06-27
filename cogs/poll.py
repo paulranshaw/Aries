@@ -1,4 +1,5 @@
-from cogs.embed import * 
+import datetime
+import discord
 from discord.ext import commands
 
 class Poll(commands.Cog):
@@ -9,7 +10,8 @@ class Poll(commands.Cog):
     @commands.command()
     @commands.guild_only()
     async def poll(self, ctx, *, poll):
-        poll = await Embed.embed(self, "Poll", f"{poll}", None, ctx.channel)
+        pollEmbed = discord.Embed(title="Poll", description=poll, colour=0xe6f5ff, timestamp=datetime.datetime.utcnow())
+        poll = await ctx.send(embed=pollEmbed)
         await poll.add_reaction("✅")
         await poll.add_reaction("❌")
 
