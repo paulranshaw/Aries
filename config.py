@@ -1,3 +1,3 @@
 token = ''
 prefix = ['a!']
-cogs = ['cogs.command_prefix', 'cogs.embed', 'cogs.GIF', 'cogs.kick']
+cogs = ['cogs.ban', 'cogs.command_prefix', 'cogs.embed', 'cogs.GIF', 'cogs.kick']
