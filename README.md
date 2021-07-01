@@ -19,6 +19,7 @@ After [inviting](https://discord.com/api/oauth2/authorize?client_id=858724881004
 | `a! ban <@user> <reason>` | **Aries** will ban the targeted user via @ mention and use, if any, the provided reason within your guild audit log. |
 | `a! cuddle <@user>` | **Aries** will send an embed with a cuddle GIF and mention both you and the targeted user. |
 | `a! gif <query>` | **Aries** will query GIPHY API and upload a GIF image to the channel with the requested content. |
+| `a! help` | **Aries** will send an embed with a link to this README file. |
 | `a! hug <@user>` | **Aries** will send an embed with a hug GIF and mention both you and the targeted user. |
 | `a! invite` | **Aries** will send an embed with invitation information for others to also add **Aries** to their guilds. |
 | `a! kick` | **Aries** will kick the targeted user via @ mention and use, if any, the provided reason within your guild audit log. |
