@@ -1,3 +1,5 @@
+![Aries](https://user-images.githubusercontent.com/78688623/124183973-d81fe400-dab0-11eb-85bd-945fb7c83445.jpg)
+
 **Aries** is a custom [**Discord**](https://discord.com/) bot solution developed within [**discord.py**](https://github.com/Rapptz/discord.py), an API wrapper written in Python.
 
 [Use this link to invite **Aries** to your Discord server.](https://discord.com/api/oauth2/authorize?client_id=858724881004232724&permissions=8&scope=bot)
