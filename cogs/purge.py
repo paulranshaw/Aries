@@ -6,7 +6,7 @@ class Purge(commands.Cog):
     def __innit__(self, bot):
         self.bot = bot
 
-    @commands.command(aliases="clear", pass_context=True)
+    @commands.command(aliases=["clear"], pass_context=True)
     @commands.guild_only()
     @commands.has_permissions(manage_messages=True)
     async def purge(self, ctx, amount: int):
