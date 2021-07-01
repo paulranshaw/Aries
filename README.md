@@ -20,7 +20,7 @@ After [inviting](https://discord.com/api/oauth2/authorize?client_id=858724881004
 | `a! cuddle <@user>` | **Aries** will send an embed with a cuddle GIF and mention both you and the targeted user. |
 | `a! gif <query>` | **Aries** will query GIPHY API and upload a GIF image to the channel with the requested content. |
 | `a! hug <@user>` | **Aries** will send an embed with a hug GIF and mention both you and the targeted user. |
-| `a! invite` | **Aries** will send an embed with invitation information for others to also add **Aries** to their servers. |
+| `a! invite` | **Aries** will send an embed with invitation information for others to also add **Aries** to their guilds. |
 | `a! kick` | **Aries** will kick the targeted user via @ mention and use, if any, the provided reason within your guild audit log. |
 | `a! kiss <@user>` | **Aries** will send an embed with a kiss GIF and mention both you and the targeted user. |
 | `a! kiss cheek <@user>` | **Aries** will send an embed with a kiss cheek GIF and mention both you and the targeted user. |
