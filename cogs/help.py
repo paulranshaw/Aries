@@ -6,7 +6,6 @@ class Help(commands.Cog):
     def __innit__(self, bot):
         self.bot = bot
 
-
     @commands.command()
     @commands.guild_only()
     async def help(self, ctx):
