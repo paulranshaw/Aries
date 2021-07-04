@@ -25,10 +25,10 @@ class Unban(commands.Cog):
         bans = await ctx.guild.bans()
         for user in bans:
             await ctx.guild.unban(user.user, reason=reason)
-            if reason is not None:
-                await Embed.embed(self, "Unban", f":white_check_mark: Successfully unbanned **{user}** ({user.id}).", 0x00ff00, ctx.channel)
-            else:
-                await Embed.embed(self, "Unban", f":white_check_mark: Successfully unbanned **{user}** ({user.id}).", 0x00ff00, ctx.channel)
+        if reason is None:
+            await Embed.embed(self, "Unban", f":white_check_mark: Successfully unbanned **{user}** ({user.id}).", 0x00ff00, ctx.channel)
+        else:
+            await Embed.embed(self, "Unban", f":white_check_mark: Successfully unbanned **{user}** ({user.id}) for: **{reason}**.", 0x00ff00, ctx.channel)
 
     @unban.error
     async def unbanError(self, ctx, error):
