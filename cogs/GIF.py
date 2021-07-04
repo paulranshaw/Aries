@@ -253,7 +253,7 @@ class GIF(commands.Cog):
 
     @commands.command()
     async def lick(self, ctx, user: discord.Member):
-        await self.gifEmbed(LICK_IMAGES, f'{user.mention} was licked by **{ctx.author.mention}!', user, ctx.author, ctx.channel)
+        await self.gifEmbed(LICK_IMAGES, f'{user.mention} was licked by {ctx.author.mention}!', user, ctx.author, ctx.channel)
 
     @commands.command()
     async def slap(self, ctx, user: discord.Member):
