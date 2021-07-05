@@ -31,6 +31,7 @@ After [inviting](https://discord.com/api/oauth2/authorize?client_id=858724881004
 | `a!kiss forehead <@user>` | **Aries** will send an embed with a kiss forehead GIF and mention both you and the targeted user. |
 | `a!kiss lips <@user>` | **Aries** will send an embed with a kiss lips GIF and mention both you and the targeted user. |
 | `a!lick <@user>` | **Aries** will send an embed with a lick GIF and mention both you and the targeted user. |
+| `a!mute <@user> <time> <reason>` | **Aries** will mute the targeted user via @ mention for the specified time as well as use, if any, the reason provided within an embed. |
 | `a!poll <poll>` | **Aries** will send an embed with: checkmark and X reactions added enabling poll functionality in channels. |
 | `a!slap <@user>` | **Aries** will send an embed with a slap GIF and mention both you and the targeted user. |
 | `a!purge <amount>` | **Aries** will delete an amount of messages from the channel history. |
