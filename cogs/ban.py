@@ -12,7 +12,7 @@ class Ban(commands.Cog):
     @commands.has_permissions(ban_members=True)
     async def ban(self, ctx, user: discord.Member, *, reason=None):
         if reason is None:
-            await user.ban(reason=f"{ctx.author.name}")
+            await user.ban(reason="No reason provided.")
             await Embed.embed(self, "Ban", f":white_check_mark: Successfully banned **{user}** ({user.id}).", 0x00ff00, ctx.channel)
         else:
             await user.ban(reason=reason)
