@@ -15,7 +15,7 @@ class command_prefix(commands.Cog):
 
     @commands.command()
     @commands.guild_only()
-    @commands.has_permissions(administrator=True)
+    @commands.has_permissions(manage_guild=True)
     async def prefix(self, ctx, *, prefix):
         with open("prefixes.json", "r") as f:
             prefixes = json.load(f)
@@ -30,7 +30,7 @@ class command_prefix(commands.Cog):
     @prefix.error
     async def prefixError(self, ctx, error):
         if isinstance(error, commands.MissingPermissions):
-            await Embed.embed(self, "Error", ":x: User does not have permission: **administrator**!", 0xff0000, ctx.channel)
+            await Embed.embed(self, "Error", ":x: User does not have permission: **manage_guild**!", 0xff0000, ctx.channel)
 
     @commands.Cog.listener()
     async def on_guild_join(self, guild):
