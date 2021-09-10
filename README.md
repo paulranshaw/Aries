@@ -8,6 +8,8 @@
 * [Setup](#setup)
 * [Commands](#commands)
   * [Admin](#admin)
+  * [University of Liverpool Anine and Otaku Society](#uolaaos)
+
 
 ## Setup
 After [inviting](https://discord.com/api/oauth2/authorize?client_id=858724881004232724&permissions=8&scope=bot) **Aries**, you can setup your guild prefix with the below usage:
@@ -45,3 +47,14 @@ After [inviting](https://discord.com/api/oauth2/authorize?client_id=858724881004
 | Command & Usage | Description |
 | ------- | ----------- |
 | `a!prefix <prefix>` | **Aries** will change the prefix used within your guild. |
+
+### Uolaaos
+
+| Command & Usage | Description |
+| ------- | ----------- |
+| `a!coins` | **Aries** will send an embed stating your coins balance. |
+| `a!daily` | **Aries** will add 100 coins to your balance on a daily basis per use. |
+| `a!coins` | **Aries** will add 4 coins to your balance on an hourly basis per use. |
+| `a!profile <@user>` | **Aries** will send an embed showing information about the user and or target. |
+
+
