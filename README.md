@@ -8,6 +8,7 @@
 * [Setup](#setup)
 * [Commands](#commands)
   * [Admin](#admin)
+  * [MyAnimeList](#myanimelist)
   * [University of Liverpool Anine and Otaku Society](#uolaaos)
 
 
@@ -48,6 +49,13 @@ After [inviting](https://discord.com/api/oauth2/authorize?client_id=858724881004
 | ------- | ----------- |
 | `a!prefix <prefix>` | **Aries** will change the prefix used within your guild. |
 
+### MyAnimeList
+
+| Command & Usage | Description |
+| ------- | ----------- |
+| `a!anime <query>` | **Aries** will query MAL API and send an embed with the requested content. |
+| `a!manga <query>` | **Aries** will query MAL API and send an embed with the requested content. |
+
 ### Uolaaos
 
 | Command & Usage | Description |
@@ -56,5 +64,3 @@ After [inviting](https://discord.com/api/oauth2/authorize?client_id=858724881004
 | `a!daily` | **Aries** will add 100 coins to your balance on a daily basis per use. |
 | `a!coins` | **Aries** will add 4 coins to your balance on an hourly basis per use. |
 | `a!profile <@user>` | **Aries** will send an embed showing information about the user and or target. |
-
-
