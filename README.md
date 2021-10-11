@@ -37,6 +37,7 @@ After [inviting](https://discord.com/api/oauth2/authorize?client_id=858724881004
 | `a!mute <@user> <time> <reason>` | **Aries** will mute the targeted user via @ mention for the specified time as well as use, if any, the reason provided within an embed. |
 | `a!poll <poll>` | **Aries** will send an embed with: checkmark and X reactions added enabling poll functionality in channels. |
 | `a!slap <@user>` | **Aries** will send an embed with a slap GIF and mention both you and the targeted user. |
+| `a!profile <@user>` | **Aries** will send an embed showing information about the user and or target. |
 | `a!purge <amount>` | **Aries** will delete an amount of messages from the channel history. |
 | `a!vote ` | **Aries** will send an embed with a link to the Top.gg voting page. |
 | `a!unban <userID>` | **Aries** will unban the targeted user via their userID and use, if any, the provided reason within your guild audit log. |
@@ -63,4 +64,3 @@ After [inviting](https://discord.com/api/oauth2/authorize?client_id=858724881004
 | `a!coins` | **Aries** will send an embed stating your coins balance. |
 | `a!daily` | **Aries** will add 100 coins to your balance on a daily basis per use. |
 | `a!hourly` | **Aries** will add 4 coins to your balance on an hourly basis per use. |
-| `a!profile <@user>` | **Aries** will send an embed showing information about the user and or target. |
