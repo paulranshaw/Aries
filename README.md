@@ -62,5 +62,5 @@ After [inviting](https://discord.com/api/oauth2/authorize?client_id=858724881004
 | ------- | ----------- |
 | `a!coins` | **Aries** will send an embed stating your coins balance. |
 | `a!daily` | **Aries** will add 100 coins to your balance on a daily basis per use. |
-| `a!coins` | **Aries** will add 4 coins to your balance on an hourly basis per use. |
+| `a!hourly` | **Aries** will add 4 coins to your balance on an hourly basis per use. |
 | `a!profile <@user>` | **Aries** will send an embed showing information about the user and or target. |
