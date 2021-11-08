@@ -50,6 +50,16 @@ After [inviting](https://discord.com/api/oauth2/authorize?client_id=858724881004
 | ------- | ----------- |
 | `a!prefix <prefix>` | **Aries** will change the prefix used within your guild. |
 
+### Music
+
+| Command & Usage | Description |
+| ------- | ----------- |
+| `a!connect <query>` | **Aries** will connect to connect to the channel where the command author is present. |
+| `a!fs` | **Aries** will skip the content currently being played. |
+| `a!play <query>` | **Aries** will query YouTube and play content from the query. |
+| `a!queue <query>` | **Aries** will send an embed with the current playback queue. |
+
+
 ### MyAnimeList
 
 | Command & Usage | Description |
