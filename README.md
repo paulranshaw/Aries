@@ -8,6 +8,7 @@
 * [Setup](#setup)
 * [Commands](#commands)
   * [Admin](#admin)
+  * [Music](#music)
   * [MyAnimeList](#myanimelist)
   * [University of Liverpool Anine and Otaku Society](#uolaaos)
 
