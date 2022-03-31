@@ -9,7 +9,7 @@ class Help(commands.Cog):
     @commands.command()
     @commands.guild_only()
     async def help(self, ctx):
-        await Embed.embed(self, "Help", "Checkout **Aries** documentation at: [Help](https://github.com/paulranshaw/aries/blob/master/README.md)", None, ctx.channel)
+        await Embed.embed(self, "Help", "Checkout **Aries** documentation at: [Help](https://github.com/paulranshaw/Aries/blob/master/README.md)", None, ctx.channel)
 
 def setup(bot):
     bot.remove_command('help')
