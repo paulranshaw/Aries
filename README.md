@@ -56,7 +56,6 @@ After [inviting](https://discord.com/api/oauth2/authorize?client_id=858724881004
 | `a!slap <@user>` | **Aries** will send an embed with a slap GIF and mention both you and the targeted user. |
 | `a!profile <@user>` | **Aries** will send an embed showing information about the user and or target. |
 | `a!purge <amount>` | **Aries** will delete an amount of messages from the channel history. |
-| `a!vote ` | **Aries** will send an embed with a link to the Top.gg voting page. |
 | `a!unban <userID>` | **Aries** will unban the targeted user via their userID and use, if any, the provided reason within your guild audit log. |
 | `a!unmute <@user>` | **Aries** will unmute the targeted user via @ mention and use, if any, the reason provided within an embed. |
 
