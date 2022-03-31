@@ -1,22 +1,38 @@
-![Aries](https://user-images.githubusercontent.com/78688623/124183973-d81fe400-dab0-11eb-85bd-945fb7c83445.jpg)
+<!-- PROJECT SHIELDS -->
+[![Contributors][contributors-shield]][contributors-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/78688623/124183973-d81fe400-dab0-11eb-85bd-945fb7c83445.jpg" width="128" height="128">
+  </a>
+
+<!-- ABOUT -->
+## About
 
 **Aries** is a custom [**Discord**](https://discord.com/) bot solution developed within [**discord.py**](https://github.com/Rapptz/discord.py), an API wrapper written in Python.
 
 [Use this link to invite **Aries** to your Discord server.](https://discord.com/api/oauth2/authorize?client_id=858724881004232724&permissions=8&scope=bot)
 
+### Built With
+* [Python](https://www.python.org/)
+
+<!-- TABLE OF CONTENTS -->
 #### Table of Contents
+* [About](#about)
+  * [Built With](#built-with)
 * [Setup](#setup)
 * [Commands](#commands)
   * [Admin](#admin)
   * [Music](#music)
   * [MyAnimeList](#myanimelist)
-  * [University of Liverpool Anine and Otaku Society](#uolaaos)
-
 
 ## Setup
 After [inviting](https://discord.com/api/oauth2/authorize?client_id=858724881004232724&permissions=8&scope=bot) **Aries**, you can setup your guild prefix with the below usage:
 
-* `a!prefix <prefix>` **Aries** will change the prefix used within your guild
+* `a!prefix <prefix>`
 
 ## Commands
 
@@ -44,7 +60,6 @@ After [inviting](https://discord.com/api/oauth2/authorize?client_id=858724881004
 | `a!unban <userID>` | **Aries** will unban the targeted user via their userID and use, if any, the provided reason within your guild audit log. |
 | `a!unmute <@user>` | **Aries** will unmute the targeted user via @ mention and use, if any, the reason provided within an embed. |
 
-
 ### Admin
 
 | Command & Usage | Description |
@@ -60,7 +75,6 @@ After [inviting](https://discord.com/api/oauth2/authorize?client_id=858724881004
 | `a!play <query>` | **Aries** will query YouTube and play content from the query. |
 | `a!queue <query>` | **Aries** will send an embed with the current playback queue. |
 
-
 ### MyAnimeList
 
 | Command & Usage | Description |
@@ -68,10 +82,14 @@ After [inviting](https://discord.com/api/oauth2/authorize?client_id=858724881004
 | `a!anime <query>` | **Aries** will query MAL API and send an embed with the requested content. |
 | `a!manga <query>` | **Aries** will query MAL API and send an embed with the requested content. |
 
-### Uolaaos
+<!-- LICENSE -->
+## License
+Distributed under the MIT License. See `LICENSE` for more information
 
-| Command & Usage | Description |
-| ------- | ----------- |
-| `a!coins` | **Aries** will send an embed stating your coins balance. |
-| `a!daily` | **Aries** will add 100 coins to your balance on a daily basis per use. |
-| `a!hourly` | **Aries** will add 4 coins to your balance on an hourly basis per use. |
+<!-- MARKDOWN LINKS & IMAGES -->
+[contributors-shield]: https://img.shields.io/github/contributors/paulranshaw/Aries
+[contributors-url]: https://github.com/paulranshaw/Aries/graphs/contributors
+[license-shield]: https://img.shields.io/badge/license-MIT-blue.svg
+[license-url]: https://choosealicense.com/licenses/mit
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/paulranshaw
