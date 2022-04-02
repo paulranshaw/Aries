@@ -7,13 +7,12 @@ import sys
 from cogs.command_prefix import *
 from discord.ext import commands
 
-desc=''
 intents = discord.Intents().all()
 
 class Aries(commands.Bot):
 
     def __init__(self):
-        super().__init__(intents=intents, command_prefix=command_prefix.get_prefix, description=desc, pm_help=None, case_insensitive=True, help_attrs=dict(hidden=True), activity=discord.Game(name="Amongst the stars 🌠"))
+        super().__init__(intents=intents, command_prefix=command_prefix.get_prefix, description=None, pm_help=None, case_insensitive=True, help_attrs=dict(hidden=True), activity=discord.Game(name="Amongst the stars 🌠"))
         self.load_cogs()
         self.session = aiohttp.ClientSession(loop=self.loop)
 
