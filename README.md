@@ -29,6 +29,7 @@ Currently serving **25+** guilds, **Aries** has a variety of functionality which
   * [GIF](#gif)
   * [Music](#music)
   * [MyAnimeList](#myanimelist)
+* [License](#license)
 
 ## Installation
 
